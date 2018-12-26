@@ -14,6 +14,8 @@ def timer(seconds):
 			os.system('cls')
 		elif os.name == 'posix':
 			os.system('clear')
+		else:
+			continue
 	print("Countdown finished!")
 
 answer = int(input("How many seconds do you want to countdown?\n"))
