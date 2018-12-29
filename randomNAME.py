@@ -50,7 +50,7 @@ def main():
           except ValueError:
               print("Input must be an integer!\n")
               continue
-          if count < 0:
+          if count < 1:
               print("Input must be a positive number!\n")
           else:
               print("#########################")
