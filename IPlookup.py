@@ -1,9 +1,7 @@
-import re
 import json
 import urllib
 import urllib.request
 import urllib.error
-from urllib.request import urlopen
 
 
 url = urllib.request.urlopen('http://ipinfo.io/json')
